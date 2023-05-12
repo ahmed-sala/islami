@@ -1,6 +1,9 @@
-<?php include_once "header.php" ?>
+<?php
+include_once "header.php" ?>
 
-<?php if (!isset($_SESSION['person'])) {
+<?php
+
+if (!isset($_SESSION['person'])) {
   header('Location: login.php');
 }
 ?>
